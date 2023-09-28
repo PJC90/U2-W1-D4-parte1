@@ -1,0 +1,75 @@
+body,html{
+    font-family: "Indie Flower";
+    height: 100vh;
+    background-color: #666666;
+}
+main.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#postit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+}
+article h1{
+    font-size: 2.6em;
+    font-weight: bold;
+}
+article p{
+    font-size: 1.8em;
+    margin-top: 15px;
+}
+#postit_1{
+    background-color: #FAFBC9;
+    transform: rotate(-10deg);
+    box-shadow: 4px 4px 19px black;
+}
+#postit_2{
+    background-color: #C8F8CA;
+    transform: rotate(5deg);
+    box-shadow: 4px 4px 19px black;
+}
+#postit_3{
+    background-color: #C6C6F1;
+    transform: rotate(-10deg);
+    box-shadow: 4px 4px 19px black;
+}
+#postit_4{
+    background-color: #C8F8CA;
+    transform: rotate(10deg);
+    box-shadow: 4px 4px 19px black;
+}
+#postit_5{
+    background-color: #FAFBC9;
+    transform: rotate(-10deg);
+    box-shadow: 4px 4px 19px black;
+}
+#postit_6{
+    background-color: #C6C6F1;
+    transform: rotate(-8deg);
+    box-shadow: 4px 4px 19px black;
+}
+#postit_7{
+    background-color: #FAFBC9;
+    transform: rotate(-6deg);
+    box-shadow: 4px 4px 19px black;
+}
+#postit_8{
+    background-color: #C8F8CA;
+    transform: rotate(5deg);
+    box-shadow: 4px 4px 19px black;
+}
